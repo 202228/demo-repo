@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Your Grocery Connection</title>
+    <link rel="stylesheet" href="/css/indexcss.css">
+    <script src="/js/index.js"> </script>
+</head>
+<body>
+<!--main-->
+<div class="main">
+    <div class="navbar">
+        <div class="icon">
+            <img src="/image/logo/logo.jpg" alt="Logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li><a href="/Blogpage/blog.html">BLOG</a></li>
+                <li><a href="#">ABOUTUS</a></li>
+                <li><a href="#">RESEARCH</a></li>
+            </ul>
+        </div>
+    </div> 
+    <!-- content-->
+    <div class="content">
+        <h1 id="greeting"> Welcome to Organic Plant <br><span>Base & Market</span> <br>Experience</h1>
+        <p class="par">Shopping for groceries is like embarking on a journey through<br>
+            a bustling marketplace, where every aisle holds treasures waiting to be discovered.
+        </p>
+        <button class="cn" onclick><a href="#">Shop Now</a></button>
+        <div class="form"   onsubmit=" return validateForm">
+            <h2>Login Here</h2>
+            <input type="email" name="email" placeholder="Enter Email Here" required>
+            <input type="password" name="" placeholder="Enter Password Here" required>
+            <button class="btnn"><a href="#">Login</a></button>
+            <p class="link">Don't have an account<br>
+            <a href="register.html">Sign up </a> here</a></p> 
+            <p class="liw">Log in with</p>
+            <div class="icons">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    
+                <!--functioncall-->
+                <script type="text/javascript"> 
+                    function validateForm() 
+                    { 
+         
+                         
+                        var email = document.forms["messageForm"]["email"].value; 
+                        var password = document.forms["messageForm"]["password"].value; 
+
+                        
+                
+                        if (email == "" || password == "") 
+                        { 
+                            alert("Empty fields are present!!! Please enter the values..."); 
+                            return false; 
+                        } 
+                
+                         alert("Thank you for joining!!!"); 
+                         return true; 
+                        } 
+                       
+                       
+                    </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Our feature section-->
+<section class="feature" id="features">
+    <h1 class="heading"> Our <span> Features</span> </h1>
+
+<div class="box-container">
+    <div class="box">
+        <img src="/image/icon/images.jpeg">
+        <h3> Fresh and Organic</h3>
+        <p> uashfuahfkjanfjkhJ</p>
+        <a href="#" class="btn"> Read more</a>
+    </div>
+    <div class="box">
+        <img src="/image/delivery.png">
+        <h3> Delivery on time</h3>
+        <p> uashfuahfkjanfjkhJ</p>
+        <a href="#" class="btn"> Read more</a>
+    </div>
+    <div class="box">
+        <img src="/image/pay.png">
+        <h3> Easy Payment</h3>
+        <p> uashfuahfkjanfjkhJ</p>
+        <a href="#" class="btn"> Read more </a>
+    </div>
+</div>
+
+</section>
+
+
+    </div>
+</div>
+
+
+               
+
+
+<!-- Product section -->
+          <h2 > Welcome to Our Grocery Store</h2>
+          <p class="pan"> <I>Browse our wide selection of fresh and organic product</I></p>
+         <section class="products">
+          <h1 class="heading"> Our <span>Products</span></h1>
+          </section>
+<div class="product-container">
+    <div class="product-card">
+        <img src="/image/product/beetroot.jpg" alt="Product 1">
+        <h3>Beetroot</h3>
+        <p>Description of Product 1 goes here.</p>
+        <p>Price: $XX.XX</p>
+        <button><a href="#">Buy Now</a></button>
+    </div>
+    <div class="product-card">
+        <img src="/image/product/Brocoli.jpg" alt="Product 2">
+        <h3>Brocoli</h3>
+        <p>Description of Product 2 goes here.</p>
+        <p>Price: $XX.XX</p>
+        <button><a href="#">Buy Now</a></button>
+    </div>
+    <div class="product-card">
+        <img src="/image/product/Cabbage.jpg" alt="Product 3">
+        <h3>Cabbage</h3>
+        <p>Description of Product 3 goes here.</p>
+        <p>Price: $XX.XX</p>
+        <button><a href="#">Buy Now</a></button>
+    </div>
+</div>
+
+<!-- End of Product Section -->
+
+      <!--Customers review-->
+<section class="review">
+    <h1 class="heading"> Customer's <span>Review</span></h1>
+
+    <div class=" box-container">
+        
+            <div class="  box">
+               <img src="/image/customer/customer1.jpeg" height="20px" width="160px"> 
+               <p> It is the best</p>
+               <h3> John Deo</h3>    
+            </div>
+
+            <div class=" box">
+                <img src="/image/customer/customer2.jpeg"> 
+                <p> It is the best</p>
+                <h3> John Deo</h3>    
+             </div>
+
+             <div class=" box">
+                <img src="/image/customer/customer4.jpeg"> 
+                <p> It is the best</p>
+                <h3> John Deo</h3>    
+             </div>
+        </div>
+    </div>
+</section>
+
+      <!-- end Customers review-->
+ 
+<!-- Starting of Footer Section-->
+
+<h1>Your Grocery Connection</h1>
+<p>Browse our wide selection of fresh and organic product</p>
+
+
+<footer class="footer">
+<div class="footer-content">
+<div class="footer-section">
+    
+<h3>About Us</h3>
+<p>"Our website is dedicated to providing a seamless shopping
+    experience for our customers,<br> offering a wide range of high-quality  and organic products at competitive prices.<br>
+    With a commitment to customer satisfaction.</p>
+</div>
+<div class="footer-section">
+<h3>Customer Service</h3>
+<ul>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h3>Connect With Us</h3>
+<ul>
+    <li><img src="/image/icon/facebook.png" alt="Facebook"><a href="#">Facebook</a></li>
+    <li><img src="/image/icon/insta.png" alt="Instagram"><a href="#">Instagram</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h3>Download Our App</h3>
+<p>Get exclusive deals and offers on our mobile app. Download now!</p>
+<div class="dwnl">
+    <img src="/image/icon/app.png" alt="App Store Badge">
+    <img src="/image/icon/playstore.png" alt="Google Play Badge">
+</div>
+</div>
+</div>
+<div class="copyright">
+<p>&copy; 2024 Your Grocery Connection. All rights reserved.</p>
+</div>
+</footer>
+
+</body>
+</html>
